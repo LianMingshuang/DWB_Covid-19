@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Studio Week 3</title>
+  <title>DEMO Doctors Without Borders: Covid-19 Response</title>
   <!-- Add Mapbox GL JS JavaScript file -->
   <script src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
   <!-- Add in the Mapbox GL JS CSS file -->
@@ -31,55 +31,6 @@ p {
   text-align: left;
 }
 
-/**
-* Create a position for the map
-* on the page */
-#map {
-  position: absolute;
-  height: 70%;
-  top: 200;
-  bottom: 0;
-  width: 100%;
-}
-
-/**
-* Set rules for how the map overlays
-* (information box and legend) will be displayed
-* on the page. */
-.map-overlay {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  background: rgba(255, 255, 255, 0.8);
-  margin-right: 20px;
-  font-family: Arial, sans-serif;
-  overflow: auto;
-  border-radius: 3px;
-}
-
-#features {
-  top: 200;
-  height: 100px;
-  margin-top: 20px;
-  width: 250px;
-}
-
-#legend {
-  padding: 10px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  line-height: 18px;
-  height: 150px;
-  margin-bottom: 115px;
-  width: 100px;
-}
-
-.legend-key {
-  display: inline-block;
-  border-radius: 20%;
-  width: 10px;
-  height: 10px;
-  margin-right: 5px;
-}
   </style>
   <!-- Adding styling info for page layout by reading in a CSS file -->
   <link rel="stylesheet" href="styles.css">
@@ -87,32 +38,24 @@ p {
 </head>
 
 <body>
-  <h1>Studio Week 3 <br> Choropleth Map with Mapbox </h1>
+  <h1>Doctors Without Borders <br> Massachusetts Cases & Resources </h1>
   <!-- Add multiple pages to web page-->
   <!-- active class displays the grey box around current page-->
   <ul>
   	<li><a class="active" href="index.html" target="_self">Product 1</a></li>
-    <li><a href="mapbox-interaction.html" target="_self">Product 2</a></li>
-    <li><a href="mapbox-turfjs.html" target="_self">Product 3</a></li>
+    <li><a href="product2.html" target="_self">Product 2</a></li>
+    <li><a href="product3.html" target="_self">Product 3</a></li>
   </ul>
   <br>
 
-  <!-- Add a div to give the map somewhere to go -->
-  <div id='map'></div>
-  <div class='map-overlay' id='features'><h2>US population density</h2><div id='pd'><p>Hover over a state!</p></div></div>
-  <div class='map-overlay' id='legend'></div>
-  
- 
-  <script>
-
   <iframe 
-  width="100%" 
-  height="640px" 
-  src="https://clarku.maps.arcgis.com/apps/PublicInformation/index.html?appid=d0cbd9310e614ba4b46ce2937e8278ae" 
-  frameborder="0" 
-  scrolling="no"></iframe>
+    width="100%"
+    height="640px"
+    src="https://clarku.maps.arcgis.com/apps/PublicInformation/index.html?appid=d0cbd9310e614ba4b46ce2937e8278ae" 
+    frameborder="0"
+    scrolling="no">
+  </iframe>
 
-  </script>
 </body>
 
 </html>
