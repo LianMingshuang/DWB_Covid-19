@@ -91,9 +91,9 @@ p {
   <!-- Add multiple pages to web page-->
   <!-- active class displays the grey box around current page-->
   <ul>
-  	<li><a class="active" href="index.html" target="_self">Output 1</a></li>
-    <li><a href="mapbox-interaction.html" target="_self">Output 2</a></li>
-    <li><a href="mapbox-turfjs.html" target="_self">Output 3</a></li>
+  	<li><a class="active" href="index.html" target="_self">Product 1</a></li>
+    <li><a href="mapbox-interaction.html" target="_self">Product 2</a></li>
+    <li><a href="mapbox-turfjs.html" target="_self">Product 3</a></li>
   </ul>
   <br>
 
@@ -104,52 +104,14 @@ p {
   
  
   <script>
-    // Add your access token
-    mapboxgl.accessToken = 'pk.eyJ1Ijoicm1vb2R5IiwiYSI6ImNrNXBzZDNmZjBlOWUzbG9ldXdzZ3U4dWwifQ.eILfhbLLPpr3wWBS9QvOzw';
-    // Create a variable called "map" to house your map
-    var map = new mapboxgl.Map({
-      container: 'map', // container id
-      style: 'mapbox://styles/rmoody/ck8k9msyw0yai1inoul7mr8fe' // replace this with your style URL
-    });
 
-    map.on('load', function() {
-  // the rest of the code will go in here
-  var layers = ['0-10', '10-20', '20-50', '50-100', '100-200', '200-500', '500-1000', '1000+'];
-  var colors = ['#FFEDA0', '#FED976', '#FEB24C', '#FD8D3C', '#FC4E2A', '#E31A1C', '#BD0026', '#800026'];
+  <iframe 
+  width="100%" 
+  height="640px" 
+  src="https://clarku.maps.arcgis.com/apps/PublicInformation/index.html?appid=d0cbd9310e614ba4b46ce2937e8278ae" 
+  frameborder="0" 
+  scrolling="no"></iframe>
 
-    // Add a legend
-for (i = 0; i < layers.length; i++) {
-    var layer = layers[i];
-    var color = colors[i];
-    var item = document.createElement('div');
-    var key = document.createElement('span');
-    key.className = 'legend-key';
-    key.style.backgroundColor = color;
-
-    var value = document.createElement('span');
-    value.innerHTML = layer;
-    item.appendChild(key);
-    item.appendChild(value);
-    legend.appendChild(item);
-  }
-
-    // Add the information window
-      map.on('mousemove', function(e) {
-    var states = map.queryRenderedFeatures(e.point, {
-      layers: ['statedata']
-    });
-
-    if (states.length > 0) {
-      document.getElementById('pd').innerHTML = '<h3><strong>' + states[0].properties.name + '</strong></h3><p><strong><em>' + states[0].properties.density + '</strong> people per square mile</em></p>';
-   } else {
-      document.getElementById('pd').innerHTML = '<p>Hover over a state!</p>';
-   }
-  });
-});
-// Set cursor default 
-map.getCanvas().style.cursor = 'default';
-//Set map bounds
-map.fitBounds([[-133.2421875, 16.972741], [-47.63671875, 52.696361]]);
   </script>
 </body>
 
