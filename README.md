@@ -1,5 +1,4 @@
-# Welcome to the Covid-19
-# Doctors Without Borders Repository!
+# Welcome to the Covid-19, Doctors Without Borders Repository!
 ### Date: 4/22/2020
 ### Author: Rowan Moody
 
