@@ -1,6 +1,6 @@
 # Welcome to the IDCE30262 Covid-19 Project Repository!
 ### Date: 4/22/2020
-### Author: Rowan Moody
+### Authors: Jiang He, Rowan Moody, Smruti Naik, Qihui Wang,
 
 
 
