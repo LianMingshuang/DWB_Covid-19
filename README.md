@@ -32,6 +32,7 @@ Our team want to support doctor without boards organization coordinate their fut
 
 ### Data used: 
 •	Acute Care Hospitals, Community Health Centers from MassGIS, these 2 datasets’ sources are same as Product 1.
+
 •	Another dataset of their future projects is a makeup test dataset. The structure of dataset is showing in below:
 
 #### 1	Activities_id(Text):The id for each activity of doctor without boards organization.
