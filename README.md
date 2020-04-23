@@ -16,10 +16,13 @@ Our team want to create a web map to help doctor without boards organization to 
 •	Town level cases from Mass.gov
 https://www.mass.gov/info-details/covid-19-cases-quarantine-and-monitoring
 https://www.mass.gov/doc/confirmed-covid-19-cases-in-ma-by-citytown-january-1-2020-april-14-2020/download
+
 •	Long Term Care Residences from MassGIS
 https://docs.digital.mass.gov/dataset/massgis-data-long-term-care-residences
+
 •	Acute Care Hospitals from MassGIS
 https://docs.digital.mass.gov/dataset/massgis-data-acute-care-hospitals
+
 •	Community Health Centers from MassGIS
 https://docs.digital.mass.gov/dataset/massgis-data-community-health-centers
 
