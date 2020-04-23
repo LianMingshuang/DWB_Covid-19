@@ -9,12 +9,39 @@ Product Website Link:
 
 
 
-## For those who want to explore the basics more: 
-- If you want to explore Leaflet more, you can follows this [Leaflet tutorial for adding basic geographic features (point, polygon, polyline) to a map](https://github.com/jakobzhao/geog371/tree/master/lectures/lec07). You will need to set up a new `.html` file from scratch.  
-- Alternatively, the [Leaflet website hosts a variety of tutorials](https://leafletjs.com/examples.html). Most of these tutorials assume that you can set up a basic html file, including body, header, and script tags. 
+## 1.	Product 1
+Our team want to create a web map to help doctor without boards organization to display where potentially need their help. We referred to their activities related COVID-19 in EU and decided to show the information about: coronavirus cases and deaths, long term care residences, acute care hospitals and community health centers in MA. 
 
-## For those who need a bigger challenge: 
-After successfully following the instructions above you can take things further... these tutorials are more complex but allow for some really cool interactivity. They both require you to construct complete web pages. 
-- Mapbox has a good tutorial for how to [build a Store Locator](https://docs.mapbox.com/help/tutorials/building-a-store-locator/) that includes some really cool interactivity.
-- Here's a great Mapbox tutorial for how to [show changes over time](https://docs.mapbox.com/help/tutorials/show-changes-over-time/): this tutorial includes a 4MB GeoJSON file that contains 15,273 geocoded motor vehicle collision incidents in NYC. Github pages limits are 1GB, you should be able to host these data and the code in a repo! 
-- I really love this Leaflet tutorial for a [Boston Rat Map](http://maptimeboston.github.io/leaflet-intro/) ([repo here](https://github.com/maptimeBoston/leaflet-intro)). It's quite easy to follow and covers basic geographic features, styling, and interactivity. However, it uses an outdated version of Leaflets css/jss. You would need to update these in the header and then figure out if there are other things that don't quite work. 
+### Data used:
+•	Town level cases from Mass.gov
+https://www.mass.gov/info-details/covid-19-cases-quarantine-and-monitoring
+https://www.mass.gov/doc/confirmed-covid-19-cases-in-ma-by-citytown-january-1-2020-april-14-2020/download
+•	Long Term Care Residences from MassGIS
+https://docs.digital.mass.gov/dataset/massgis-data-long-term-care-residences
+•	Acute Care Hospitals from MassGIS
+https://docs.digital.mass.gov/dataset/massgis-data-acute-care-hospitals
+•	Community Health Centers from MassGIS
+https://docs.digital.mass.gov/dataset/massgis-data-community-health-centers
+
+
+## 2.	Product 2
+Our team want to support doctor without boards organization coordinate their future projects in MA. We want to display these information on the map: where their activities happening, when their activities began, the status of each their activities (like how many people they have helped) and estimated end time. Also, we want to show how much area would be benefited from their activities.
+
+### Data used: 
+•	Acute Care Hospitals, Community Health Centers from MassGIS, these 2 datasets’ sources are same as Product 1.
+•	Another dataset of their future projects is a makeup test dataset. The structure of dataset is showing in below:
+
+#### 1	Activities_id(Text):The id for each activity of doctor without boards organization.
+#### 2	Sites_name(Text):The name of each activity site.
+#### 3	Address(Text):The address of each activity site.
+#### 4	Coordinates_X(Float):The X Coordinates of each activity site.
+#### 5	Coordinates_Y(Float):The Y Coordinates of each activity site.
+#### 6	Begin_date(Date):The beginning date of each activity.
+#### 7	Status(Text):The status for each activity, like pending, processing and completed.
+#### 8	Detailed_information(Text):The detailed information for each activity, like how many people the team have helped.
+#### 9	Estimated_end(Date):The estimated ending date of each activity.
+#### 10	Relative_news_reports(URL):The relative news or reports about each activity from team members or others.
+
+
+## 3.	Product 3:
+Our team want to tell a story about where they are working and the work they are doing, helping the general public understand why it is important.
