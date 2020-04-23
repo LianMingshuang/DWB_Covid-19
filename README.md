@@ -31,7 +31,7 @@ https://docs.digital.mass.gov/dataset/massgis-data-community-health-centers
 Our team want to support doctor without boards organization coordinate their future projects in MA. We want to display these information on the map: where their activities happening, when their activities began, the status of each their activities (like how many people they have helped) and estimated end time. Also, we want to show how much area would be benefited from their activities.
 
 ### Data used: 
-•	Acute Care Hospitals, Community Health Centers from MassGIS, these 2 datasets’ sources are same as Product 1.
+•	Acute Care Hospitals dataset is same as Product 1.
 
 •	Another dataset of their future projects is a makeup test dataset. The structure of dataset is showing in below:
 
