@@ -11,7 +11,9 @@ Product Website Link:
 The project teams are not associated with the Doctors Without Borders organization.  
 The project teams disclaims authority on accuracy and authenticity of the data used as follows:
 
-* The data used in within these products are sourced from online GIS open data platforms
+* The data used in within these products are sourced from online GIS data platforms
+    * Massaschusetts Government COVID-19 reported case data
+    * MassGIS database 
 * The project team did not participate in the acquisition and compilation of such data
 * The project team can not verify accuracy of such data against ground truth
 
