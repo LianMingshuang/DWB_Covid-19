@@ -6,8 +6,14 @@
 
 Product Website Link: 
   https://rmoody3.github.io/DWB_Covid-19/
+  
+### Disclaimer on Data
+The project teams are not associated with the Doctors Without Borders organization.  
+The project teams diclaims authority on accuracy and authenticity of the data used as follows:
 
-
+* The data used in within these products are sourced from online GIS open data platforms
+* The project team did not participate in the acquisition and compilation of such data
+* The project team can not verify accuracy of such data against ground truth
 
 ## 1.	Product 1 - Massachusetts Cases & Resources
 Our team creates a web map to help the Doctor Without Borders organization to display areas of high infection and low resources that would need their help. We referred to their activities related COVID-19 in EU and decided to show the information about: coronavirus cases, long term care residences, and acute care hospitals in MA.
