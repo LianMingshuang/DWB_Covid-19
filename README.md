@@ -9,7 +9,7 @@ Product Website Link:
   
 ### Disclaimer on Data
 The project teams are not associated with the Doctors Without Borders organization.  
-The project teams diclaims authority on accuracy and authenticity of the data used as follows:
+The project teams disclaims authority on accuracy and authenticity of the data used as follows:
 
 * The data used in within these products are sourced from online GIS open data platforms
 * The project team did not participate in the acquisition and compilation of such data
