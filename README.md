@@ -36,14 +36,23 @@ Our team want to support doctor without boards organization coordinate their fut
 •	Another dataset of their future projects is a makeup test dataset. The structure of dataset is showing in below:
 
  1	Activities_id(Text):The id for each activity of doctor without boards organization.
+ 
  2	Sites_name(Text):The name of each activity site.
+ 
  3	Address(Text):The address of each activity site.
+ 
  4	Coordinates_X(Float):The X Coordinates of each activity site.
+ 
  5	Coordinates_Y(Float):The Y Coordinates of each activity site.
+ 
  6	Begin_date(Date):The beginning date of each activity.
+ 
  7	Status(Text):The status for each activity, like pending, processing and completed.
+ 
  8	Detailed_information(Text):The detailed information for each activity, like how many people the team have helped.
+ 
  9	Estimated_end(Date):The estimated ending date of each activity.
+ 
  10	Relative_news_reports(URL):The relative news or reports about each activity from team members or others.
 
 
