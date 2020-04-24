@@ -10,7 +10,7 @@ Product Website Link:
 
 
 ## 1.	Product 1
-Our team want to create a web map to help doctor without boards organization to display where potentially need their help. We referred to their activities related COVID-19 in EU and decided to show the information about: coronavirus cases and deaths, long term care residences, acute care hospitals and community health centers in MA. 
+Our team wanted to create a web map to help the Doctor Without Borders organization to display areas of high risk and low resources that would need their help. We referred to their activities related COVID-19 in EU and decided to show the information about: coronavirus cases, long term care residences, acute care hospitals and community health centers in MA. 
 
 ### Data used:
 •	Town level cases from Mass.gov
