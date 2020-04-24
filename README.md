@@ -10,7 +10,7 @@ Product Website Link:
 
 
 ## 1.	Product 1
-Our team wanted to create a web map to help the Doctor Without Borders organization to display areas of high risk and low resources that would need their help. We referred to their activities related COVID-19 in EU and decided to show the information about: coronavirus cases, long term care residences, acute care hospitals and community health centers in MA. 
+Our team creates a web map to help the Doctor Without Borders organization to display areas of high infection and low resources that would need their help. We referred to their activities related COVID-19 in EU and decided to show the information about: coronavirus cases, long term care residences, and acute care hospitals in MA.
 
 ### Data used:
 •	Town level cases from Mass.gov
@@ -23,12 +23,9 @@ https://docs.digital.mass.gov/dataset/massgis-data-long-term-care-residences
 •	Acute Care Hospitals from MassGIS
 https://docs.digital.mass.gov/dataset/massgis-data-acute-care-hospitals
 
-•	Community Health Centers from MassGIS
-https://docs.digital.mass.gov/dataset/massgis-data-community-health-centers
-
 
 ## 2.	Product 2
-Our team want to support doctor without boards organization coordinate their future projects in MA. We want to display these information on the map: where their activities happening, when their activities began, the status of each their activities (like how many people they have helped) and estimated end time. Also, we want to show how much area would be benefited from their activities.
+Our team wants to support the Doctors Without Borders organization coordinate their future projects in MA. We want to display these information on the map: where their activities happening, when their activities began, the status of each their activities (like how many people they have helped) and estimated end time. Also, we want to show how much area would be benefited from their activities.
 
 ### Data used: 
 •	Acute Care Hospitals dataset is same as Product 1.
@@ -57,4 +54,4 @@ Our team want to support doctor without boards organization coordinate their fut
 
 
 ## 3.	Product 3:
-Our team want to tell a story about where they are working and the work they are doing, helping the general public understand why it is important.
+Our team wants to tell a story about where they are working and the work they are doing, helping the general public understand why it is important.
