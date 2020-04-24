@@ -9,7 +9,7 @@ Product Website Link:
 
 
 
-## 1.	Product 1
+## 1.	Product 1 - Massachusetts Cases & Resources
 Our team creates a web map to help the Doctor Without Borders organization to display areas of high infection and low resources that would need their help. We referred to their activities related COVID-19 in EU and decided to show the information about: coronavirus cases, long term care residences, and acute care hospitals in MA.
 
 ### Data used:
@@ -24,7 +24,7 @@ https://docs.digital.mass.gov/dataset/massgis-data-long-term-care-residences
 https://docs.digital.mass.gov/dataset/massgis-data-acute-care-hospitals
 
 
-## 2.	Product 2
+## 2.	Product 2 - Coordination Support
 Our team wants to support the Doctors Without Borders organization coordinate their future projects in MA. We want to display these information on the map: where their activities happening, when their activities began, the status of each their activities (like how many people they have helped) and estimated end time. Also, we want to show how much area would be benefited from their activities.
 
 ### Data used: 
@@ -53,5 +53,5 @@ Our team wants to support the Doctors Without Borders organization coordinate th
  10	Relative_news_reports(URL):The relative news or reports about each activity from team members or others.
 
 
-## 3.	Product 3:
-Our team wants to tell a story about where they are working and the work they are doing, helping the general public understand why it is important.
+## 3.	Product 3 - COVID-19 Timeline
+Our team wants to tell a story about the development of COVID-19 in Massachusetts, helping the general public understand how important it is to decrease risk of virus exposure and the spread of infection.  
