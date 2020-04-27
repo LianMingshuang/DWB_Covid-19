@@ -18,7 +18,7 @@ The project teams disclaims authority on accuracy and authenticity of the data u
 * The project team can not verify accuracy of such data against ground truth
 
 ## 1.	Product 1 - Massachusetts Cases & Resources
-Our team creates a web map to help the Doctor Without Borders organization to display areas of high infection and low resources that would need their help. We referred to their activities related COVID-19 in EU and decided to show the information about: coronavirus cases, long term care residences, and acute care hospitals in MA.
+Our team created a web map to help the Doctors Without Borders organization to display areas that would benefit most from their help. We referred to their activities related COVID-19 in EU and decided to show the information about: coronavirus cases and deaths, long term care residences, acute care hospitals and community health centers in MA. 
 
 ### Data used:
 •	Town level cases from Mass.gov
